@@ -1,0 +1,97 @@
+body {
+    background: url("img/rawan-yasser-E0Sbr9d1IV0-unsplash.jpg");
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* background-repeat: no-repeat; */
+}
+
+.left {
+    position: absolute;
+    /* border: 2px solid green; */
+    top: 15px;
+    left: 26px;
+    display: inline-block;
+
+
+}
+
+.mid {
+    /* border: 2px solid pink; */
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.right {
+    position: absolute;
+    /* border: 2px solid green; */
+    top: 15px;
+    right: 26px;
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline;
+    padding: 35px;
+    margin: 1px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+img {
+    width: 56px;
+    height: 62px;
+    border-radius: 26px;
+}
+
+.btn {
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 20px;
+    width: 79px;
+    height: 38px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.container {
+    border: 2px solid white;
+    width: 375px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+
+
+.form input {
+    display: block;
+    width: 212px;
+    padding: 13px;
+    margin: 05px auto;
+    border-radius: 10px;
+    border-color: whitesmoke;
+}
+
+.container button{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
